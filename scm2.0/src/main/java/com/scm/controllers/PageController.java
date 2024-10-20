@@ -12,6 +12,7 @@ public class PageController {
     public String home(Model model) {
 
         System.out.println("Home Page Handler");
+        System.out.println("ajay is great developer");
         model.addAttribute("name", "Substring");
         model.addAttribute("youtubechannel", "learnwithdurgesh");
         model.addAttribute("githubrepo", "https://github.com/Sumesh921/HTMLForms");
